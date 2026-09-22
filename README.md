@@ -39,7 +39,7 @@ You will receive an automated reply with the download link.
 ## Statistics
 
 |  | Train | Validation | Test |
-| :--- | ---: | ---: |
+| :--- | ---: | ---: | ---: |
 | Evaluations | 30,000 |  12,000 | 12,000 | 24,000 |
 | Audio–text pairs | 7,500 |  3,000 | 3,000 | 3,000 |
 | Audio duration [s] | 75,000 | 30,000 | 30,000 | 30,000 |
