@@ -6,7 +6,7 @@ This dataset consists of the following componets:
 
 - Audio–text pairs
 
-	This dataset includes 7,500 audio–text pairs for training and 3,000 audio–text pairs for validation.
+	This dataset includes 7,500 audio–text pairs for training, 3,000 audio–text pairs for validation, and 3,000 audio–text pairs for test.
 	Each text is written in English.
 	All audio samples was converted to mono 16-bit 16 kHz format.
 
