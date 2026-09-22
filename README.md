@@ -1,5 +1,7 @@
 # XACLE Challenge 2027 development dataset
 
+> ⚠️ **Important:** This dataset inherits the XACLE Challenge 2026 dataset and additionally provides the TTA model ID for each synthesized audio sample.
+
 ## Contents
 
 This dataset consists of the following componets:
