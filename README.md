@@ -32,7 +32,7 @@ This dataset consists of the following componets:
 
 ## Download
 
-Please download from [here](https://y-okamoto.sakura.ne.jp/XACLE_Challenge/2025/dataset/XACLE_dataset_train_val.zip).
+Please download from [here](https://y-okamoto.sakura.ne.jp/XACLE_Challenge/2027/dataset/XACLE_Challenge_2027_development_dataset.zip).
 <!--
 To download the dataset, please send an email to dataset@xacle.org with “Download dataset” in the subject line. 
 You will receive an automated reply with the download link.
