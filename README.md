@@ -1,6 +1,6 @@
 # XACLE Challenge 2027 development dataset
 
-⚠️ **Important:** This dataset inherits the XACLE Challenge 2026 dataset and additionally provides the TTA model ID for each synthesized audio sample.
+⚠️ **Important:** This dataset inherits the XACLE Challenge 2026 dataset and additionally provides the generation model ID for each synthesized audio sample.
 
 ## Contents
 
@@ -22,7 +22,9 @@ This dataset consists of the following componets:
 	
 	This dataset includes average semantic-alignment scores for each audio–text pair.
 
-- TTA model ID for each synthesized audio sample
+- Model ID for each synthesized audio sample
+
+    This dataset includes the ID of the model used to synthesize each audio sample.
 
 - Listener IDs
 
@@ -54,11 +56,13 @@ You will receive an automated reply with the download link.
 	- text: The text's corresponding audio.
 	- 11-point semantic-alignment score: The evaluation scores for semantic alignment between audio and text by each listener.
 	- listener_id: The listener ID who scored the sematic-alignment scores.
+    - model_id: The ID of the model used to synthesize the audio.
 
 - [train_average,validation_average,test].csv: There are 3 columns in the each csv file.
 	- wave_file_name: The file name of audio.
 	- text: The text's corresponding audio.
 	- average_semantic_alignement_score: The average semantic-alignment scores of each audio-text pair.
+    - model_id: The ID of the model used to synthesize the audio.
 
 ## Directory structure
 
