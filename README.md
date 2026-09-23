@@ -12,11 +12,11 @@ This dataset consists of the following componets:
 	Each text is written in English.
 	All audio samples was converted to mono 16-bit 16 kHz format.
 
-- 11-point semantic-alignment scores between audio and text (per listener)
+- 11-point-scale semantic-alignment scores between audio and text (per listener)
 
 	This dataset includes subjective evaluation scores for semantic alignment between audio and text.
 	The semantic-alignment score is on a an 11-point scale from 0 ("does not match at all") to 10 ("matched exactly").
-	Each audio–text pair is evaluated by four native English-speaking .
+	Each audio–text pair is evaluated by four native English speakers for the training and validation sets and by eight native English speakers for the test set.
 
 - Average semantic-alignment scores
 	
@@ -54,7 +54,7 @@ You will receive an automated reply with the download link.
 - [train,validation,test].csv: There are 4 columns in the each csv file.
 	- wave_file_name: The file name of audio.
 	- text: The text's corresponding audio.
-	- 11-point semantic-alignment score: The evaluation scores for semantic alignment between audio and text by each listener.
+	- 11-point-scale semantic-alignment score: The evaluation scores for semantic alignment between audio and text by each listener.
 	- listener_id: The listener ID who scored the sematic-alignment scores.
     - model_id: The ID of the model used to synthesize the audio.
 
