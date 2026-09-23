@@ -22,9 +22,9 @@ This dataset consists of the following componets:
 	
 	This dataset includes average semantic-alignment scores for each audio–text pair.
 
-- Model ID for each synthesized audio sample
+- Model IDs and names for each synthesized audio sample
 
-    This dataset includes the ID of the model used to synthesize each audio sample.
+    This dataset includes the IDs and names of the model used to synthesize each audio sample.
 
 - Listener IDs
 
@@ -57,12 +57,14 @@ You will receive an automated reply with the download link.
 	- 11-point-scale semantic-alignment score: The evaluation scores for semantic alignment between audio and text by each listener.
 	- listener_id: The listener ID who scored the sematic-alignment scores.
     - model_id: The ID of the model used to synthesize the audio.
+    - model_name: The name of the model used to synthesize the audio.
 
 - [train_average,validation_average,test].csv: There are 3 columns in the each csv file.
 	- wave_file_name: The file name of audio.
 	- text: The text's corresponding audio.
 	- average_semantic_alignement_score: The average semantic-alignment scores of each audio-text pair.
     - model_id: The ID of the model used to synthesize the audio.
+    - model_name: The name of the model used to synthesize the audio.
 
 ## Directory structure
 
