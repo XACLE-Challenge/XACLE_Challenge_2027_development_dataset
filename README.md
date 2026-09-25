@@ -32,12 +32,10 @@ This dataset consists of the following componets:
 
 ## Download
 
-Please download from [here](https://y-okamoto.sakura.ne.jp/XACLE_Challenge/2027/dataset/XACLE_Challenge_2027_development_dataset.zip).
-<!--
-To download the dataset, please send an email to dataset@xacle.org with “Download dataset” in the subject line. 
+To download the development dataset, please send an email to dataset@xacle.org with “Download development dataset” in the subject line. 
 You will receive an automated reply with the download link.
 <b>If you don't receive a reply after a while, please check your spam folder. If the email fails to send or you still don't receive a reply, please contact the organizer at y-oka@g.ecc.u-tokyo.ac.jp.<b>
--->
+
 
 
 ## Statistics
